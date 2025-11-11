@@ -1,0 +1,24 @@
+! name: Business Brasil
+! description: Limit to top business and finance related sites in Brasil
+! public: true
+! author: Davi Lima
+
+$discard
+$boost,site=valor.globo.com
+$boost,site=exame.com
+$boost,site=infomoney.com.br
+$boost,site=braziljournal.com
+$boost,site=bloomberglinea.com
+$boost,site=reuters.com
+$boost,site=cnnbrasil.com.br
+$boost,site=forbes.com.br
+$boost,site=istoedinheiro.com.br
+$boost,site=epocanegocios.globo.com
+$boost,site=neofeed.com.br
+$boost,site=moneytimes.com.br
+$boost,site=seudinheiro.com
+$boost,site=suno.com.br
+$boost,site=br.investing.com
+$boost,site=oglobo.globo.com
+$boost,site=folha.uol.com.br
+$boost,site=economia.estadao.com.br
