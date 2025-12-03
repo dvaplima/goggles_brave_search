@@ -1,0 +1,54 @@
+! name: Business GCC (Gulf)
+! description: Limit to top business and finance news sites across GCC (KSA, UAE, Qatar, Kuwait, Bahrain, Oman)
+! public: true
+! author: Davi Lima
+
+$discard
+# Regional / Pan-GCC
+$boost,site=zawya.com
+$boost,site=meed.com
+$boost,site=arabianbusiness.com
+$boost,site=tradearabia.com
+$boost,site=oilandgasmiddleeast.com
+$boost,site=constructionweekonline.com
+$boost,site=meconstructionnews.com
+$boost,site=menabytes.com
+$boost,site=wamda.com
+$boost,site=magnitt.com
+
+# Saudi Arabia (KSA)
+$boost,site=argaam.com
+$boost,site=arabnews.com
+$boost,site=saudigazette.com.sa
+$boost,site=alarabiya.net
+$boost,site=asharqbusiness.com
+$boost,site=spa.gov.sa
+
+# United Arab Emirates (UAE)
+$boost,site=thenationalnews.com
+$boost,site=gulfnews.com
+$boost,site=khaleejtimes.com
+$boost,site=wam.ae
+$boost,site=emirates247.com
+$boost,site=cnbcarabia.com
+$boost,site=skynewsarabia.com
+
+# Qatar
+$boost,site=thepeninsulaqatar.com
+$boost,site=gulf-times.com
+$boost,site=qna.org.qa
+$boost,site=dohanews.co
+
+# Kuwait
+$boost,site=kuwaittimes.com
+$boost,site=arabtimesonline.com
+$boost,site=kuna.net.kw
+
+# Bahrain
+$boost,site=gdnonline.com
+$boost,site=bna.bh
+
+# Oman
+$boost,site=timesofoman.com
+$boost,site=omanobserver.om
+$boost,site=muscatdaily.com
