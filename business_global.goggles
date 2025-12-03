@@ -1,0 +1,52 @@
+! name: Business Global
+! description: Limit to top global business and finance news sites
+! public: true
+! author: Davi Lima
+
+$discard
+$boost,site=bloomberg.com
+$boost,site=reuters.com
+$boost,site=wsj.com
+$boost,site=ft.com
+$boost,site=economist.com
+$boost,site=apnews.com
+$boost,site=cnbc.com
+$boost,site=bbc.com
+$boost,site=nytimes.com
+$boost,site=washingtonpost.com
+$boost,site=theguardian.com
+$boost,site=forbes.com
+$boost,site=fortune.com
+$boost,site=marketwatch.com
+$boost,site=businessinsider.com
+$boost,site=investopedia.com
+$boost,site=seekingalpha.com
+$boost,site=morningstar.com
+$boost,site=finance.yahoo.com
+$boost,site=barrons.com
+$boost,site=asia.nikkei.com
+$boost,site=scmp.com
+$boost,site=aljazeera.com
+$boost,site=axios.com
+$boost,site=semafor.com
+$boost,site=spglobal.com
+$boost,site=statista.com
+$boost,site=theinformation.com
+$boost,site=techcrunch.com
+$boost,site=venturebeat.com
+$boost,site=crunchbase.com
+$boost,site=afr.com
+$boost,site=theglobeandmail.com
+$boost,site=financialpost.com
+$boost,site=smh.com.au
+$boost,site=straitstimes.com
+$boost,site=channelnewsasia.com
+$boost,site=livemint.com
+$boost,site=economictimes.indiatimes.com
+$boost,site=business-standard.com
+$boost,site=thehindubusinessline.com
+$boost,site=moneycontrol.com
+$boost,site=yicaiglobal.com
+$boost,site=caixin.com
+$boost,site=dw.com
+$boost,site=npr.org
